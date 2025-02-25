@@ -9,7 +9,7 @@ const version = pkgs.version || '0.0.1';
 
 const isDev = process.env.NODE_ENV === 'development';
 
-const basename = isDev ? '/' : '/username/app';
+const basename = isDev ? '/' : '/root/frontend-demo';
 const plugins = []
 const isWeb = false;
 if(isWeb) {
