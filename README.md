@@ -4,10 +4,10 @@
 npm i -g @kevisual/envision-cli 
 
 ## 添加源地址
-envision baseURL -a https://kevisual.silkyai.cn
-envision baseURL -l #显示
-envision baseURL -s 2 # 设置number
-
+#envision baseURL -a https://kevisual.silkyai.cn
+#envision baseURL -l #显示
+#envision baseURL -s 2 # 设置number
+envision setBaseURL https://kevisual.silkyai.cn
 # login
 envision login -u root -p ****
 
