@@ -1,7 +1,7 @@
 ## front deploy demo
 
 ```sh
-npm i -g @kevisual/envision/cli 
+npm i -g @kevisual/envision-cli 
 
 ## 添加源地址
 envision baseURL -a https://kevisual.silkyai.cn
